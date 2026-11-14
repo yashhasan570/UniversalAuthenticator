@@ -1,0 +1,12 @@
+package com.universalauthenticator.app.helpers.comparators;
+
+import com.universalauthenticator.app.vault.VaultEntry;
+
+import java.util.Comparator;
+
+public class FavoriteComparator implements Comparator<VaultEntry> {
+    @Override
+    public int compare(VaultEntry a, VaultEntry b) {
+        return -1 * Boolean.compare(a.isFavorite(), b.isFavorite());
+    }
+}
