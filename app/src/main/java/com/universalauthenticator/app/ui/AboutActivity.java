@@ -30,9 +30,9 @@ public class AboutActivity extends Universal AuthenticatorActivity {
     private static String WEBSITE_ALEXANDER = "https://alexbakker.me";
     private static String GITHUB_MICHAEL = "https://github.com/michaelschattgen";
 
-    private static String MAIL_BEEMDEVELOPMENT = "universalauthenticator@gmail.com";
-    private static String WEBSITE_BEEMDEVELOPMENT = "https://beem.dev/";
-    private static String PLAYSTORE_BEEMDEVELOPMENT = "https://play.google.com/store/apps/details?id=com.universalauthenticator.app";
+    private static String MAIL_SUPPORT = "universalauthenticator@gmail.com";
+    private static String WEBSITE_SUPPORT = "https://github.com/yashhasan570/UniversalAuthenticator";
+    private static String PLAYSTORE_SUPPORT = "https://play.google.com/store/apps/details?id=com.universalauthenticator.app";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,13 +81,13 @@ public class AboutActivity extends Universal AuthenticatorActivity {
         btnMichael.setOnClickListener(v -> openUrl(GITHUB_MICHAEL));
 
         View btnMail = findViewById(R.id.btn_email);
-        btnMail.setOnClickListener(v -> openMail(MAIL_BEEMDEVELOPMENT));
+        btnMail.setOnClickListener(v -> openMail(MAIL_SUPPORT));
 
         View btnWebsite = findViewById(R.id.btn_website);
-        btnWebsite.setOnClickListener(v -> openUrl(WEBSITE_BEEMDEVELOPMENT));
+        btnWebsite.setOnClickListener(v -> openUrl(WEBSITE_SUPPORT));
 
         View btnRate = findViewById(R.id.btn_rate);
-        btnRate.setOnClickListener(v -> openUrl(PLAYSTORE_BEEMDEVELOPMENT ));
+        btnRate.setOnClickListener(v -> openUrl(PLAYSTORE_SUPPORT ));
 
         View btnChangelog = findViewById(R.id.btn_changelog);
         btnChangelog.setOnClickListener(v -> {
