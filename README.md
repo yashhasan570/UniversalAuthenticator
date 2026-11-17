@@ -5,7 +5,7 @@ alt="App icon">
 
 <br>
 
-[![Build](https://github.com/yashhasan570/UniversalAuthenticator/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/yashhasan570/UniversalAuthenticator/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/universalauthenticator-authenticator/localized.svg)](https://crowdin.com/project/universalauthenticator-authenticator) [![Donate](https://img.shields.io/badge/donate-buy%20us%20a%20beer-%23FF813F)](https://www.buymeacoffee.com/universalauthenticator) [![Matrix](https://img.shields.io/matrix/universalauthenticator:matrix.org?color=blue)](https://matrix.to/#/#universalauthenticator:matrix.org)
+[![Build](https://github.com/yashhasan570/UniversalAuthenticator/actions/workflows/build-app-workflow.yaml/badge.svg)](https://github.com/yashhasan570/UniversalAuthenticator/actions/workflows/build-app-workflow.yaml?query=branch%3Amaster) [![Crowdin](https://badges.crowdin.net/universalauthenticator-authenticator/localized.svg)](https://crowdin.com/project/universalauthenticator-authenticator)
 
 **Universal Authenticator Authenticator** is a free, secure and open source 2FA app for Android.
 It aims to provide a secure authenticator for your online services, while also
