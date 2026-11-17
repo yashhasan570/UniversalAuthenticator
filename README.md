@@ -170,3 +170,7 @@ different license:
 
 - [TextDrawable](app/src/main/java/com/amulyakhare/textdrawable)
 - [TrustedIntents](app/src/main/java/info/guardianproject/trustedintents)
+
+## Contact
+
+Questions, problem reports or feedback? Reach us on Telegram: [@johnconstantine570](https://t.me/johnconstantine570)
